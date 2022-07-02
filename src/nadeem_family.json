@@ -1,0 +1,77 @@
+[
+  {
+    "id": "nadeem_hafeez",
+    "gender": "male",
+    "spouses": [
+      {
+        "id": "lubna_nadeem",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "parents": [],
+    "children": [
+      {
+        "id": "hassan_nadeem",
+        "type": "blood"
+      },
+      {
+        "id": "usman_nadeem",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "lubna_nadeem",
+    "gender": "female",
+    "spouses": [
+      {
+        "id": "nadeem_hafeez",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "parents": [
+      {
+        "id": "nadeem_hafeez",
+        "type": "blood"
+      }
+    ],
+    "children": [
+      {
+        "id": "hassan_nadeem",
+        "type": "blood"
+      },
+      {
+        "id": "usman_nadeem",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "hassan_nadeem",
+    "gender": "male",
+    "spouses": [],
+    "siblings": [],
+    "parents": [
+      {
+        "id": "nadeem_hafeez",
+        "type": "blood"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "usman_nadeem",
+    "gender": "male",
+    "spouses": [],
+    "siblings": [],
+    "parents": [
+      {
+        "id": "nadeem_hafeez",
+        "type": "blood"
+      }
+    ],
+    "children": []
+  }
+]
