@@ -61,7 +61,7 @@ export default function Person({
       />
       <CardMedia
         component="img"
-        height="194"
+        height="300"
         image={profile_picture}
         alt="Paella dish"
       />

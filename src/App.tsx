@@ -2,22 +2,44 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import OutlinedCard from "./Person";
-import hassan_nadeem from "./profile_pictures/hassan_nadeem.png";
+import hassan_nadeem from "./profile_pictures/hassan_nadeem.jpg";
 import usman_nadeem from "./profile_pictures/usman_nadeem.png";
 import ar_nadeem from "./profile_pictures/ar_nadeem.png";
 import nadeem_hafeez from "./profile_pictures/nadeem_hafeez.jpg";
+import momina_nadeem from "./profile_pictures/momina_nadeem.jpg"
 import { Tree, TreeNode } from "react-organizational-chart";
 import TypeAnimation from "react-type-animation";
-
+import Grid from "@mui/material/Grid"
+import Box from "@mui/material/Box"
 // import FamilyTree from "./FamilyTree";
 
 const FamilyTree = () => (
   <div>
+    <Grid container   sx={{
+    display: 'grid',
+    columnGap: 1,
+    rowGap: 1,
+    gridTemplateColumns: 'repeat(5, 1fr)',
+  }}
+  
+  >
+    <Grid item>
     {NadeemHafeez}
+    </Grid>
+    <Grid item>
     {HassanNadeem}
+    </Grid>
+    <Grid item>
     {UsmanNadeem}
+    </Grid>
+    <Grid item>
     {MominaNadeem}
+    </Grid>
+    <Grid item>
     {AbdulRahmanNadeem}
+    </Grid>
+  </Grid>
+
   </div>
 );
 
@@ -57,8 +79,14 @@ const AbdulRahmanNadeem = (
   />
 );
 
-const MominaNadeem = <div>Momina Nadeem</div>;
-
+const MominaNadeem = (
+  <OutlinedCard
+    name="Momina Nadeem"
+    title="Fashion Industry"
+    profile_picture={momina_nadeem}
+    description=""
+  />
+);
 const names = [
   "Hassan Nadeem",
   "Usman Nadeem",
