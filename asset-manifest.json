@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/nadeem.pk/static/css/main.073c9b0a.css",
-    "main.js": "/nadeem.pk/static/js/main.6ded32fb.js",
-    "static/js/787.96d3fcdd.chunk.js": "/nadeem.pk/static/js/787.96d3fcdd.chunk.js",
-    "static/media/ar_nadeem.png": "/nadeem.pk/static/media/ar_nadeem.9f31523bc71ac05eeff2.png",
-    "static/media/usman_nadeem.png": "/nadeem.pk/static/media/usman_nadeem.0d9c89dbbbe03096bd97.png",
-    "static/media/hassan_nadeem.png": "/nadeem.pk/static/media/hassan_nadeem.68b78114bbf77e79586a.png",
-    "static/media/nadeem_hafeez.jpg": "/nadeem.pk/static/media/nadeem_hafeez.9290bc0f8ee37be73942.jpg",
-    "index.html": "/nadeem.pk/index.html",
-    "main.073c9b0a.css.map": "/nadeem.pk/static/css/main.073c9b0a.css.map",
-    "main.6ded32fb.js.map": "/nadeem.pk/static/js/main.6ded32fb.js.map",
-    "787.96d3fcdd.chunk.js.map": "/nadeem.pk/static/js/787.96d3fcdd.chunk.js.map"
+    "main.css": "./static/css/main.073c9b0a.css",
+    "main.js": "./static/js/main.9c3c9b9a.js",
+    "static/js/787.96d3fcdd.chunk.js": "./static/js/787.96d3fcdd.chunk.js",
+    "static/media/ar_nadeem.png": "./static/media/ar_nadeem.9f31523bc71ac05eeff2.png",
+    "static/media/usman_nadeem.png": "./static/media/usman_nadeem.0d9c89dbbbe03096bd97.png",
+    "static/media/hassan_nadeem.png": "./static/media/hassan_nadeem.68b78114bbf77e79586a.png",
+    "static/media/nadeem_hafeez.jpg": "./static/media/nadeem_hafeez.9290bc0f8ee37be73942.jpg",
+    "index.html": "./index.html",
+    "main.073c9b0a.css.map": "./static/css/main.073c9b0a.css.map",
+    "main.9c3c9b9a.js.map": "./static/js/main.9c3c9b9a.js.map",
+    "787.96d3fcdd.chunk.js.map": "./static/js/787.96d3fcdd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.6ded32fb.js"
+    "static/js/main.9c3c9b9a.js"
   ]
 }
