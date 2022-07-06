@@ -55,7 +55,7 @@ const NadeemHafeez = (
     name="Nadeem Hafeez"
     title="Business Man"
     profile_picture={nadeem_hafeez}
-    description=""
+    description="Owns Nadeem Fruit Comission buissness"
   />
 );
 
@@ -64,7 +64,7 @@ const HassanNadeem = (
     name="Hassan Nadeem"
     title="Software Engineer"
     profile_picture={hassan_nadeem}
-    description=""
+    description="Software Developer at Bloomberg"
   />
 );
 
@@ -73,7 +73,7 @@ const UsmanNadeem = (
     name="Usman Nadeem"
     title="Software Engineer"
     profile_picture={usman_nadeem}
-    description=""
+    description="Compiler Engineer at Qualcomm"
   />
 );
 
@@ -82,7 +82,7 @@ const AbdulRahmanNadeem = (
     name="AbdulRahman Nadeem"
     title="Student"
     profile_picture={ar_nadeem}
-    description=""
+    description="Studying at FAST NU Lahore"
   />
 );
 
@@ -91,7 +91,7 @@ const MominaNadeem = (
     name="Momina Nadeem"
     title="Fashion Industry"
     profile_picture={momina_nadeem}
-    description=""
+    description="Production Manager at Fozia Khalid"
   />
 );
 const names = [
