@@ -18,7 +18,6 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
-import Twitter from "@mui/icons-material/Twitter";
 
 interface ExpandMoreProps extends IconButtonProps {
   expand: boolean;
