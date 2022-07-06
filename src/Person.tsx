@@ -10,10 +10,15 @@ import Avatar from "@mui/material/Avatar";
 import IconButton, { IconButtonProps } from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import { red } from "@mui/material/colors";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ShareIcon from "@mui/icons-material/Share";
+import LinkIcon from "@mui/icons-material/Link";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
+import Twitter from "@mui/icons-material/Twitter";
 
 interface ExpandMoreProps extends IconButtonProps {
   expand: boolean;
@@ -36,6 +41,12 @@ export default function Person({
   description,
   profile_picture,
   long_description = "",
+  weblink = "",
+  twitter = "",
+  instagram = "",
+  facebook = "",
+  linkedin = "",
+  github = "",
 }) {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -71,12 +82,36 @@ export default function Person({
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton>
+        {weblink && (
+          <IconButton aria-label="Web" href={weblink}>
+            <LinkIcon />
+          </IconButton>
+        )}
+        {linkedin && (
+          <IconButton aria-label="linkedin" href={linkedin}>
+            <LinkedInIcon />
+          </IconButton>
+        )}
+        {twitter && (
+          <IconButton aria-label="twitter" href={twitter}>
+            <TwitterIcon />
+          </IconButton>
+        )}
+        {github && (
+          <IconButton aria-label="github" href={github}>
+            <GitHubIcon />
+          </IconButton>
+        )}
+        {instagram && (
+          <IconButton aria-label="instagram" href={instagram}>
+            <InstagramIcon />
+          </IconButton>
+        )}
+        {facebook && (
+          <IconButton aria-label="facebook" href={facebook}>
+            <FacebookIcon />
+          </IconButton>
+        )}
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}

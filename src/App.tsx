@@ -65,6 +65,12 @@ const HassanNadeem = (
     title="Software Engineer"
     profile_picture={hassan_nadeem}
     description="Software Developer at Bloomberg"
+    weblink="https://hassannadeem.com"
+    twitter="https://twitter.com/MHassanNadeem"
+    facebook="https://facebook.com/The.Hassan.Nadeem"
+    github="https://github.com/MHassanNadeem"
+    instagram="https://instagram.com/MHassanNadeem"
+    linkedin="https://www.linkedin.com/in/mhassannadeem/"
   />
 );
 
