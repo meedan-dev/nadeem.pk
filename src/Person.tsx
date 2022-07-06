@@ -55,10 +55,10 @@ export default function Person({
   };
 
   return (
-    <Card sx={{ maxWidth: 345, minHeight: 500 }}>
+    <Card sx={{ maxWidth: 350, minHeight: 500, minWidth: 330 }}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: "black" }} aria-label="recipe">
+          <Avatar sx={{ bgcolor: "black" }} aria-label={name}>
             {name[0]}
           </Avatar>
         }
@@ -74,7 +74,7 @@ export default function Person({
         component="img"
         height="300"
         image={profile_picture}
-        alt="Paella dish"
+        alt={name}
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
