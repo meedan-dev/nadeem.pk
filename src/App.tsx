@@ -6,40 +6,47 @@ import hassan_nadeem from "./profile_pictures/hassan_nadeem.jpg";
 import usman_nadeem from "./profile_pictures/usman_nadeem.png";
 import ar_nadeem from "./profile_pictures/ar_nadeem.png";
 import nadeem_hafeez from "./profile_pictures/nadeem_hafeez.jpg";
-import momina_nadeem from "./profile_pictures/momina_nadeem.jpg"
+import momina_nadeem from "./profile_pictures/momina_nadeem.jpg";
 import { Tree, TreeNode } from "react-organizational-chart";
 import TypeAnimation from "react-type-animation";
-import Grid from "@mui/material/Grid"
-import Box from "@mui/material/Box"
+import Grid from "@mui/material/Grid";
 // import FamilyTree from "./FamilyTree";
 
 const FamilyTree = () => (
-  <div>
-    <Grid container   sx={{
-    display: 'grid',
-    columnGap: 1,
-    rowGap: 1,
-    gridTemplateColumns: 'repeat(5, 1fr)',
-  }}
-  
+  <div
+    style={{
+      width: "90%",
+      height: "auto",
+      overflow: "auto",
+      alignItems: "center",
+    }}
   >
-    <Grid item>
-    {NadeemHafeez}
+    <Grid
+      container
+      columns={5}
+      sx={{
+        display: "grid",
+        columnGap: 1,
+        rowGap: 1,
+        gridTemplateColumns: "repeat(5, 1fr)",
+      }}
+    >
+      <Grid item xs={13} md>
+        {NadeemHafeez}
+      </Grid>
+      <Grid item xs={13} md>
+        {HassanNadeem}
+      </Grid>
+      <Grid item xs={13} md>
+        {UsmanNadeem}
+      </Grid>
+      <Grid item xs={13} md>
+        {MominaNadeem}
+      </Grid>
+      <Grid item xs={13} md>
+        {AbdulRahmanNadeem}
+      </Grid>
     </Grid>
-    <Grid item>
-    {HassanNadeem}
-    </Grid>
-    <Grid item>
-    {UsmanNadeem}
-    </Grid>
-    <Grid item>
-    {MominaNadeem}
-    </Grid>
-    <Grid item>
-    {AbdulRahmanNadeem}
-    </Grid>
-  </Grid>
-
   </div>
 );
 
@@ -120,7 +127,6 @@ function App() {
       <header className="App-header">
         <h3>Welcome to Nadeem's</h3>
         <TypingHeader />
-
         <FamilyTree />
       </header>
     </div>

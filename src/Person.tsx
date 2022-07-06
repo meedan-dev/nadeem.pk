@@ -44,7 +44,7 @@ export default function Person({
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, minHeight: 500 }}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: "black" }} aria-label="recipe">
