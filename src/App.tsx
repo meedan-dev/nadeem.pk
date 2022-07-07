@@ -7,6 +7,7 @@ import usman_nadeem from "./profile_pictures/usman_nadeem.png";
 import ar_nadeem from "./profile_pictures/ar_nadeem.png";
 import nadeem_hafeez from "./profile_pictures/nadeem_hafeez.jpg";
 import momina_nadeem from "./profile_pictures/momina_nadeem.jpg";
+import palwisha_nadeem from "./profile_pictures/palwisha_nadeem.jpg";
 import { Tree, TreeNode } from "react-organizational-chart";
 import TypeAnimation from "react-type-animation";
 import Grid from "@mui/material/Grid";
@@ -28,7 +29,7 @@ const FamilyTree = () => (
         display: "grid",
         columnGap: 1,
         rowGap: 1,
-        gridTemplateColumns: "repeat(5, 1fr)",
+        gridTemplateColumns: "repeat(6, 1fr)",
       }}
     >
       <Grid item xs={13} md>
@@ -36,6 +37,9 @@ const FamilyTree = () => (
       </Grid>
       <Grid item xs={13} md>
         {HassanNadeem}
+      </Grid>
+      <Grid item xs={13} md>
+        {PalwishaNadeem}
       </Grid>
       <Grid item xs={13} md>
         {UsmanNadeem}
@@ -74,6 +78,7 @@ const UsmanNadeem = (
     title="Software Engineer"
     profile_picture={usman_nadeem}
     description="Compiler Engineer at Qualcomm"
+    linkedin="https://www.linkedin.com/in/unadeem/"
   />
 );
 
@@ -83,6 +88,11 @@ const AbdulRahmanNadeem = (
     title="Student"
     profile_picture={ar_nadeem}
     description="Studying at FAST NU Lahore"
+    weblink="https://ar.nadeem.pk"
+    twitter="https://twitter.com/The_Ar_Nadeem"
+    github="https://github.com/ar-nadeem"
+    instagram="https://www.instagram.com/the.ar.nadeem/"
+    linkedin="https://www.linkedin.com/in/abdulrahman-nadeem-0744b718a/"
   />
 );
 
@@ -91,11 +101,24 @@ const MominaNadeem = (
     name="Momina Nadeem"
     title="Fashion Industry"
     profile_picture={momina_nadeem}
-    description="Production Manager at Fozia Khalid"
+    description="Marketing Executive at Fozia Khalid"
+    linkedin="https://www.linkedin.com/in/momina-nadeem-b81a32162/"
+  />
+);
+const PalwishaNadeem = (
+  <OutlinedCard
+    name="Palwisha Nadeem"
+    title="Artist"
+    profile_picture={palwisha_nadeem}
+    description="Taking time-off"
+    instagram="https://www.instagram.com/monochromaticconfetti/"
+    linkedin="https://www.linkedin.com/in/palwisha-nadeem/"
   />
 );
 const names = [
+  "Nadeem Hafeez",
   "Hassan Nadeem",
+  "Palwisha Nadeem",
   "Usman Nadeem",
   "Momina Nadeem",
   "AbdulRahman Nadeem",

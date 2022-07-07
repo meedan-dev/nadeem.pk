@@ -47,7 +47,11 @@ export default function Person({
     <Card sx={{ maxWidth: 350, minHeight: 500, minWidth: 330 }}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: "black" }} aria-label={name}>
+          <Avatar
+            sx={{ bgcolor: "black" }}
+            aria-label={name}
+            src={profile_picture}
+          >
             {name[0]}
           </Avatar>
         }
@@ -71,12 +75,45 @@ export default function Person({
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
+<<<<<<< Updated upstream
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
         </IconButton>
         <IconButton aria-label="share">
           <ShareIcon />
         </IconButton>
+=======
+        {weblink && (
+          <IconButton aria-label="Web" target="_blank" href={weblink}>
+            <LinkIcon />
+          </IconButton>
+        )}
+        {linkedin && (
+          <IconButton aria-label="linkedin" target="_blank" href={linkedin}>
+            <LinkedInIcon />
+          </IconButton>
+        )}
+        {twitter && (
+          <IconButton aria-label="twitter" target="_blank" href={twitter}>
+            <TwitterIcon />
+          </IconButton>
+        )}
+        {github && (
+          <IconButton aria-label="github" target="_blank" href={github}>
+            <GitHubIcon />
+          </IconButton>
+        )}
+        {instagram && (
+          <IconButton aria-label="instagram" target="_blank" href={instagram}>
+            <InstagramIcon />
+          </IconButton>
+        )}
+        {facebook && (
+          <IconButton aria-label="facebook" target="_blank" href={facebook}>
+            <FacebookIcon />
+          </IconButton>
+        )}
+>>>>>>> Stashed changes
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}
