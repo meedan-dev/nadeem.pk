@@ -57,7 +57,11 @@ export default function Person({
     <Card sx={{ maxWidth: 350, minHeight: 500, minWidth: 330 }}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: "black" }} aria-label={name}>
+          <Avatar
+            sx={{ bgcolor: "black" }}
+            aria-label={name}
+            src={profile_picture}
+          >
             {name[0]}
           </Avatar>
         }
@@ -82,32 +86,32 @@ export default function Person({
       </CardContent>
       <CardActions disableSpacing>
         {weblink && (
-          <IconButton aria-label="Web" href={weblink}>
+          <IconButton aria-label="Web" href={weblink} target="_blank">
             <LinkIcon />
           </IconButton>
         )}
         {linkedin && (
-          <IconButton aria-label="linkedin" href={linkedin}>
+          <IconButton aria-label="linkedin" href={linkedin} target="_blank">
             <LinkedInIcon />
           </IconButton>
         )}
         {twitter && (
-          <IconButton aria-label="twitter" href={twitter}>
+          <IconButton aria-label="twitter" href={twitter} target="_blank">
             <TwitterIcon />
           </IconButton>
         )}
         {github && (
-          <IconButton aria-label="github" href={github}>
+          <IconButton aria-label="github" href={github} target="_blank">
             <GitHubIcon />
           </IconButton>
         )}
         {instagram && (
-          <IconButton aria-label="instagram" href={instagram}>
+          <IconButton aria-label="instagram" href={instagram} target="_blank">
             <InstagramIcon />
           </IconButton>
         )}
         {facebook && (
-          <IconButton aria-label="facebook" href={facebook}>
+          <IconButton aria-label="facebook" href={facebook} target="_blank">
             <FacebookIcon />
           </IconButton>
         )}
