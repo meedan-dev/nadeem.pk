@@ -37,6 +37,9 @@ const FamilyTree = () => (
         {HassanNadeem}
       </Grid>
       <Grid item xs={13} md>
+        {PalwishaNadeem}
+      </Grid>
+      <Grid item xs={13} md>
         {UsmanNadeem}
       </Grid>
       <Grid item xs={13} md>
@@ -44,9 +47,6 @@ const FamilyTree = () => (
       </Grid>
       <Grid item xs={13} md>
         {AbdulRahmanNadeem}
-      </Grid>
-      <Grid item xs={13} md>
-        {PalwishaNadeem}
       </Grid>
     </Grid>
   </div>
@@ -83,6 +83,7 @@ const UsmanNadeem = (
     title="Software Engineer"
     profile_picture={usman_nadeem}
     description="Compiler Engineer at Qualcomm"
+    linkedin="https://www.linkedin.com/in/unadeem/"
   />
 );
 
@@ -92,6 +93,11 @@ const AbdulRahmanNadeem = (
     title="Student"
     profile_picture={ar_nadeem}
     description="Studying at FAST NU Lahore"
+    weblink="https://ar.nadeem.pk"
+    twitter="https://twitter.com/The_Ar_Nadeem"
+    github="https://github.com/ar-nadeem"
+    instagram="https://www.instagram.com/the.ar.nadeem/"
+    linkedin="https://www.linkedin.com/in/abdulrahman-nadeem-0744b718a/"
   />
 );
 
@@ -100,8 +106,9 @@ const MominaNadeem = (
     name="Momina Nadeem"
     title="Fashion Industry"
     profile_picture={momina_nadeem}
-    description="Production Manager at Fozia Khalid"
+    description="Marketing Executive at Fozia Khalid"
     instagram="https://www.instagram.com/mominaverse/"
+    linkedin="https://www.linkedin.com/in/momina-nadeem-b81a32162/"
   />
 );
 
