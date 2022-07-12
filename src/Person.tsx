@@ -40,7 +40,7 @@ export default function Person({
   title,
   description,
   profile_picture,
-  long_description = "",
+  long_description = <></>,
   weblink = "",
   twitter = "",
   instagram = "",
