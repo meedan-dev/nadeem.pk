@@ -77,8 +77,6 @@ const LubnaNadeem = (
   />
 );
 
-const hassan_nadeem_ld = <>{InamUlHaq}</>;
-
 const HassanNadeem = (
   <Person
     name="Hassan Nadeem"
