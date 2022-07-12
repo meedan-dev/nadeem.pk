@@ -8,6 +8,7 @@ import ar_nadeem from "./profile_pictures/ar_nadeem.png";
 import nadeem_hafeez from "./profile_pictures/nadeem_hafeez.png";
 import momina_nadeem from "./profile_pictures/momina_nadeem.jpg";
 import palwisha_nadeem from "./profile_pictures/palwisha_nadeem.png";
+import lubna_nadeem from "./profile_pictures/lubna_nadeem.jpg";
 import TypeAnimation from "react-type-animation";
 import Grid from "@mui/material/Grid";
 
@@ -27,11 +28,14 @@ const FamilyTree = () => (
         display: "grid",
         columnGap: 1,
         rowGap: 1,
-        gridTemplateColumns: "repeat(6, 1fr)",
+        gridTemplateColumns: "repeat(7, 1fr)",
       }}
     >
       <Grid item xs={13} md>
         {NadeemHafeez}
+      </Grid>
+      <Grid item xs={13} md>
+        {LubnaNadeem}
       </Grid>
       <Grid item xs={13} md>
         {HassanNadeem}
@@ -58,6 +62,15 @@ const NadeemHafeez = (
     title="Business Man"
     profile_picture={nadeem_hafeez}
     description="Owns Nadeem Fruit Comission buissness"
+  />
+);
+
+const LubnaNadeem = (
+  <Person
+    name="Lubna Nadeem"
+    title="Nadeem Home Minister"
+    profile_picture={lubna_nadeem}
+    description="Runs the Home"
   />
 );
 
