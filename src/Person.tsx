@@ -136,7 +136,11 @@ export default function Person({
         </ExpandMore>
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>{long_description}</CardContent>
+        <CardContent>
+          <Typography variant="body2" color="text.secondary">
+            {long_description}
+          </Typography>
+        </CardContent>
       </Collapse>
     </Card>
   );
