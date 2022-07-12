@@ -16,6 +16,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import EmailIcon from "@mui/icons-material/Email";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 
@@ -46,6 +47,7 @@ export default function Person({
   facebook = "",
   linkedin = "",
   github = "",
+  email = "",
 }) {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -85,6 +87,15 @@ export default function Person({
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
+        {email && (
+          <IconButton
+            aria-label="Email"
+            href={`mailto: ${email}`}
+            target="_blank"
+          >
+            <EmailIcon />
+          </IconButton>
+        )}
         {weblink && (
           <IconButton aria-label="Web" href={weblink} target="_blank">
             <LinkIcon />

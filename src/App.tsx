@@ -68,6 +68,7 @@ const HassanNadeem = (
     profile_picture={hassan_nadeem}
     description="Software Developer at Bloomberg"
     long_description="Hi, I go by Hassan Nadeem. I am a hardware and software engineer. Who takes pride is writing clean and secure code. By hobby is refactoring bad code :)"
+    email="me@hassannadeem.com"
     weblink="https://hassannadeem.com"
     twitter="https://twitter.com/MHassanNadeem"
     facebook="https://facebook.com/The.Hassan.Nadeem"
