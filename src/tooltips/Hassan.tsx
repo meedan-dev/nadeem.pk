@@ -1,8 +1,4 @@
 import * as React from "react";
-import Tooltip from "@mui/material/Tooltip";
+import { MeaningTooltip } from "./Tooltips";
 
-export const Hassan = (
-  <Tooltip title="Handsome">
-    <span>Hassan</span>
-  </Tooltip>
-);
+export const Hassan = <MeaningTooltip name="Hassan" meaning="Handsome" />;
