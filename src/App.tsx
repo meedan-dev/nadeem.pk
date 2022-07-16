@@ -125,6 +125,7 @@ const MominaNadeem = (
     title="Fashion Industry"
     profile_picture={momina_nadeem}
     description="Marketing Executive at Fozia Khalid"
+    weblink="https://momina.nadeem.pk"
     instagram="https://www.instagram.com/mominaverse/"
     linkedin="https://www.linkedin.com/in/momina-nadeem-b81a32162/"
   />
