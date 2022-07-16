@@ -11,6 +11,7 @@ import palwisha_nadeem from "./profile_pictures/palwisha_nadeem.png";
 import lubna_nadeem from "./profile_pictures/lubna_nadeem.jpg";
 import TypeAnimation from "react-type-animation";
 import Grid from "@mui/material/Grid";
+import { hassan_nadeem_long_description } from "./long_descriptions/HassanNadeem";
 
 const FamilyTree = () => (
   <div
@@ -62,6 +63,7 @@ const NadeemHafeez = (
     title="Business Man"
     profile_picture={nadeem_hafeez}
     description="Owns Nadeem Fruit Comission buissness"
+    // long_description="Nadeem (Muhammad) Hafeez"
   />
 );
 
@@ -71,6 +73,7 @@ const LubnaNadeem = (
     title="Nadeem Home Minister"
     profile_picture={lubna_nadeem}
     description="Runs the Home"
+    // long_description="Lubna (Inam Ul Haq) Nadeem"
   />
 );
 
@@ -80,7 +83,7 @@ const HassanNadeem = (
     title="Software Engineer"
     profile_picture={hassan_nadeem}
     description="Software Developer at Bloomberg"
-    long_description="Hi, I go by Hassan Nadeem. I am a hardware and software engineer. Who takes pride is writing clean and secure code. By hobby is refactoring bad code :)"
+    long_description={hassan_nadeem_long_description}
     email="me@hassannadeem.com"
     weblink="https://hassannadeem.com"
     twitter="https://twitter.com/MHassanNadeem"
@@ -97,6 +100,7 @@ const UsmanNadeem = (
     title="Software Engineer"
     profile_picture={usman_nadeem}
     description="Compiler Engineer at Qualcomm"
+    // long_description="Muhammad Usman Nadeem"
     linkedin="https://www.linkedin.com/in/unadeem/"
   />
 );
@@ -132,6 +136,7 @@ const PalwishaNadeem = (
     title="Artist"
     profile_picture={palwisha_nadeem}
     description="Taking time-off"
+    // long_description="Palwisha (Ismail) Nadeem"
     instagram="https://www.instagram.com/monochromaticconfetti/"
     linkedin="https://www.linkedin.com/in/palwisha-nadeem/"
   />

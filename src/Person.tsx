@@ -40,7 +40,7 @@ export default function Person({
   title,
   description,
   profile_picture,
-  long_description = "",
+  long_description = <></>,
   weblink = "",
   twitter = "",
   instagram = "",
@@ -136,7 +136,11 @@ export default function Person({
         </ExpandMore>
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>{long_description}</CardContent>
+        <CardContent>
+          <Typography variant="body2" color="text.secondary">
+            {long_description}
+          </Typography>
+        </CardContent>
       </Collapse>
     </Card>
   );
