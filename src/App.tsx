@@ -69,7 +69,7 @@ const NadeemHafeez = (
 
 const LubnaNadeem = (
   <Person
-    name="Lubna Nadeem"
+    name="Mrs. Nadeem"
     title="Nadeem Home Minister"
     profile_picture={lubna_nadeem}
     description="Runs the Home"
