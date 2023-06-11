@@ -8,7 +8,7 @@ import ar_nadeem from "./profile_pictures/ar_nadeem.png";
 import nadeem_hafeez from "./profile_pictures/nadeem_hafeez.png";
 import momina_nadeem from "./profile_pictures/momina_nadeem.jpg";
 import palwisha_nadeem from "./profile_pictures/palwisha_nadeem.png";
-import lubna_nadeem from "./profile_pictures/lubna_nadeem.jpg";
+import lubna_nadeem from "./profile_pictures/lubna_nadeem.png";
 import TypeAnimation from "react-type-animation";
 import Grid from "@mui/material/Grid";
 import { hassan_nadeem_long_description } from "./long_descriptions/HassanNadeem";
