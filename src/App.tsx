@@ -12,6 +12,7 @@ import lubna_nadeem from "./profile_pictures/lubna_nadeem.png";
 import TypeAnimation from "react-type-animation";
 import Grid from "@mui/material/Grid";
 import { hassan_nadeem_long_description } from "./long_descriptions/HassanNadeem";
+import { useEffect } from "react";
 
 const FamilyTree = () => (
   <div
@@ -171,15 +172,24 @@ const TypingHeader = () => {
   );
 };
 
+const redirect = async () => {
+  await new Promise((resolve) => setTimeout(resolve, 1500));
+  window.location.href = "https://ar.nadeem.pk/";
+};
+
 function App() {
+  redirect();
   return (
-    <div className="App">
-      <header className="App-header">
-        <h3>Welcome to Nadeem's</h3>
-        <TypingHeader />
-        <FamilyTree />
-      </header>
+    <div>
+      <h1>Redirecting to ar.nadeem.pk ...</h1>
     </div>
+    // <div className="App">
+    //   <header className="App-header">
+    //     <h3>Welcome to Nadeem's</h3>
+    //     <TypingHeader />
+    //     <FamilyTree />
+    //   </header>
+    // </div>
   );
 }
 
